@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+
+   
+body {
+    margin: 0;
+    padding: 0;
+  
+  
+}
+
+
+
+
+
+.nav-logo {
+    margin-left: 20px;
+}
+
+.nav-item3 {
+    margin-left: 100px;
+}
+
+
+
+.hero_background {
+    background: url("images/our\ process-hero\ image.png"); 
+    height: 728px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(8, 6, 6, 0.3);
+    
+   
+}
+
+.hero-des {
+   
+ 
+    position:absolute;
+    top: 250px;
+   
+}
+
+.hero-des h3{
+    color: #FFFFF9;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.hero-des_h1{
+    color: #69BEF5;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.hero-des_h1 span{
+    color: #FFFFF9;
+}
+
+.hero-des_h5 {
+    color: #FFFFF9;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+   
+}
+
+
+
+
+
+.img img{
+
+  
+    box-shadow: 33px 30px 2px 3px rgba(21,101,149,1);
+-webkit-box-shadow: 33px 30px 2px 3px rgba(21,101,149,1);
+-moz-box-shadow: 33px 30px 2px 3px rgba(21,101,149,1);
+}
+
+.processes_h1 span {
+    color: #FFFFF9;
+}
+
+.process_h5 {
+    font: 20px;
+}
+
+
+
+.process_p {
+    font-size: 20px;
+}
+
+.square {
+    background-color: #156595;
+    width: 297px;
+    height: 270px;
+    position: relative;
+}
+
+.square svg{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width:375px){
+    .hero-des  {
+        top: 120px;
+    }
+}
+
+
+
+@media screen and (max-width:763px){
+    .svg {
+      display: none;
+    }
+    .square {
+        display: none;
+      }
+}
+
+@media screen and (max-width:990px){
+   
+    .square {
+        width: 200px;
+      }
+   
+
+
+}
+

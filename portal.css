@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+
+.navbar {
+border-bottom: solid black 1px;
+}
+
+.sidebar {
+    margin-top: 150px !important;
+    border-right: solid black 1px;
+    height: 1000px;
+    position: fixed;
+}
+
+@media screen and  (max-width: 768px)  {
+    .sidebar {
+        display: none;
+    }
+}
+
+
+.dashboard-content {
+    margin-top: 150px !important;
+   
+}
+
+@media screen and  (max-width: 768px)  {
+    .dashboard-content  {
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+}
+
+.dashboard-content h3 {
+    text-align: start;
+}

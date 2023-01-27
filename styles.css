@@ -1,0 +1,414 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+
+  
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/**--------------------------------CSS for Nav Bar--------------------------------------**/
+
+.navbar {
+    background-color: rgba(8, 6, 6, 0.5)
+}
+
+.nav-logo {
+    margin-left: 10px;
+}
+
+.nav-item3 {
+    margin-left: 100px;
+}
+
+.navbar-services {
+    background-color: #313131;
+} 
+
+.nav-color {
+    background-color: #156595;
+}
+
+@media screen and (max-width: 1125px) {
+    .nav-item {
+      padding-left: 5px !important;
+      padding-right: 5px!important;
+}
+}
+
+.navbar-toggler {
+    background-color: #156595;
+}
+
+
+/**--------------------------------CSS for Buttons--------------------------------------**/
+.btn-primary {
+    color: #ffffff;
+    background-color: #009FFF;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.btn-primary:hover{
+    background-color: #ffffff;
+    color: #313131;
+    border: 2px solid #009FFF;
+}
+.btn-primary a:hover{
+    color: #313131;
+    
+}
+
+
+
+/**--------------------------------CSS Hero Page--------------------------------------**/
+
+.hero_background {
+    background:url("images/hero\ image.jpg");
+    background-color: rgba(8, 6, 6, 0.3);
+    height: 828px;
+    width: 100%;
+    line-height: 200%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-blend-mode: overlay;
+   
+}
+
+.hero-des {
+   
+ 
+    position:absolute;
+    top: 250px;
+    left: 50px;
+   
+ 
+}
+
+.hero-des h1{
+    color: #69BEF5;
+
+    line-height: 150%;
+   
+}
+
+.hero-des p {
+    color: #FFFFF9;
+    line-height: 1.6;
+    margin-top: 80px;
+}
+
+.about-section_image {
+    position: relative;
+}
+
+.about-section {
+   
+    position: absolute;
+    right: 40px;
+    bottom: 400px;
+    color: black;
+ 
+} 
+
+.hero-button {
+    margin-top: 70px;
+    background-color: #009FFF;
+}
+
+@media screen and (max-width: 733px) {
+    .hero-des {
+        position: absolute;
+        top: 200px;
+        left: 10px;
+}
+}
+
+
+
+/**----------------------CSS for Headers------------------------**/
+.header-services_bg {
+    width: 100%;
+    height: 400px;
+    background-color: #156595;
+    position: relative;
+}
+
+.header-services_h1 {
+    top: 200px;
+    position: relative;
+   
+}
+
+.header-services_h1 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.header-services_h1_span {
+    color: #69BEF5;
+   
+}
+
+.main-services h1{
+   color: #156595;
+   font-weight: 700;
+   font-size: 50px;
+}
+
+.main-services p{
+    font-size: 20px;
+}
+
+.main-services li {
+    font-size: 20px;
+}
+
+
+/**-------------------CSS for About Us Section--------------------**/
+
+.about-us_img {
+    padding: 0;
+}
+
+.about-us_content {
+    padding: 50px;
+    background-color: #156595;
+    color: white;
+    height: 500px;
+}
+
+@media screen and (max-width: 320px) {
+    .about-us_content {
+        height: 600px;
+}
+}
+
+
+
+.our-services {
+    background: url(images/bg_services_section.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 60px;
+ 
+}
+
+@media screen and (max-width: 320px) {
+    .footer-bg {
+        height: 920px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-us_content {
+        height: 600px;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .about-us-section {
+        display: none;
+}
+.about-us-section_m {
+    position: relative;
+   
+}
+.about-us-section_imgc {
+    padding: 0;
+}
+
+.about-us-section_img{
+   opacity: 60%;
+    padding: 0;
+    background-blend-mode: darken; 
+    height: 400px;
+} 
+}
+
+.about-us-section_mc {
+    position: absolute;
+    top: 50px;
+    padding: 10px;
+    
+}
+
+.about-us-section_mc h2{
+color: black;
+}
+
+@media screen and  (min-width: 768px)  {
+    .about-us-section_m {
+        display: none;
+    }
+}
+
+/**---------------------CSS for Our Clients Section---------------------------------**/
+
+.carousel-client {
+    margin-bottom: 150px;
+}
+
+
+
+.carousel-indicators {
+    bottom: -50px;
+ }
+ 
+
+/**---------------------CSS for Appointment Section---------------------------------**/
+
+.contact-us {
+    margin-top: 100px;
+}
+
+.appointment {
+    background-color: #156595;
+    height: 400px;
+}
+
+/**---------------------CSS Our Market Partners Section---------------------------------**/
+.our-market-partners{
+    background: url(images/bg_services_page.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+/**---------------------CSS for Footer---------------------------------**/
+.footer {
+    margin: 0;
+}
+
+.footer-name {
+    width: 90%;
+    border-top: white solid 1.5px;
+   
+}
+
+.footer-address {
+    margin-left: 35px;
+}
+
+ .footer-bg {
+    background-color: #313131;
+    height: 420px;
+
+    
+} 
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #009FFF;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+   
+  }
+
+
+
+
+
+
+
+
+
+
+.footer-menu a {
+    text-decoration: none;
+    color: #FFFFF9;
+}  
+
+@media screen and (max-width: 1024px) and (min-width: 765px) {
+    .footer-menu {
+      text-align: center;
+
+    } 
+    .footer-bg {
+        height: 490px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-bg {
+        height: 540px;
+    }
+
+}
+
+@media screen and (max-width: 764px) {
+    .footer-menu {
+      text-align: center;
+
+    } 
+    .footer-bg {
+        height: 950px;
+    }
+}
+
+
+
+@media screen and (max-width: 786px) {
+    .email_footer {
+     font-size: 14px;
+}
+    .footer-img{
+        width: 150px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) and (min-width:375px) {
+    .footer-bg {
+        height: 920px;
+    }
+    .footer_p {
+        font-size: 15px;
+    }
+
+}
+
+
+#schedule-button {
+    background-color: #009FFF; /* blue */
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 25px;
+
+}
